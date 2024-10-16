@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.background-container {
+    background-image: url('images/backgroundimage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in-box {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 40px;
+    border-radius: 8px;
+    width: 350px;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+.sign-in-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.sign-in-button:hover {
+    background-color: #f6121d;
+}
+
+.error-message {
+    display: none;
+    color: #e50914;
+    font-size: 12px;
+}
+
+.alt-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.alt-options .sign-in-code, .forgot-password {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.alt-options .forgot-password:hover, .alt-options .sign-in-code:hover {
+    color: #f6121d;
+}
+
+.remember-me {
+    display: block;
+    margin-top: 15px;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.signup a:hover {
+    color: #f6121d;
+}
